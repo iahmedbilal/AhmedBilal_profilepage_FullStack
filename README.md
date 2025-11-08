@@ -1,5 +1,7 @@
 🌐 Ahmed Bilal — Personal Portfolio
 
+profile is live at : https://iahmedbilal.github.io/AhmedBilal_profilepage_FullStack/
+
 A responsive, modern personal portfolio webpage built using only HTML and CSS (no frameworks or JavaScript).
 It showcases Ahmed Bilal’s professional background, skills, education, and achievements in a visually appealing layout.
 
