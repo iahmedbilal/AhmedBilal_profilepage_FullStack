@@ -4,20 +4,38 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ahmed Bilal — Profile</title>
-    <meta
-      name="description"
-      content="Portfolio & profile of Ahmed Bilal — Web Developer skilled in HTML, CSS, JavaScript, C++, Git, and React."
-    />
+    <meta name="description" />
     <link rel="preload" as="image" href="Bilal.JPG" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   </head>
   <body>
     <header class="site-header container">
+      <button
+        class="theme-toggle"
+        id="theme-toggle"
+        aria-label="Toggle dark mode"
+        aria-pressed="false"
+      >
+        <span class="theme-icon icon-sun">☀️</span>
+        <span class="theme-icon icon-moon">🌙</span>
+      </button>
       <div class="intro">
-        <img class="avatar" src="Bilal.JPG" alt="Portrait of Ahmed Bilal" />
+        <img
+          class="avatar"
+          src="Bilal.JPG"
+          alt="Portrait of Ahmed Bilal"
+          loading="lazy"
+          decoding="async"
+        />
+
         <div>
           <h1>Ahmed Bilal</h1>
-          <p class="subtitle">Full Stack Developer</p>
+          <p class="ml10">
+            <span class="text-wrapper">
+              <span class="letters">Full Stack Developer</span>
+            </span>
+          </p>
           <ul class="contact">
             <li><a href="tel:+919330515696">+91 93305 15696</a></li>
             <li>
@@ -184,4 +202,5 @@
       </p>
     </footer>
   </body>
+  <script src="script.js" defer></script>
 </html>
